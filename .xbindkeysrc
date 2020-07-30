@@ -1,0 +1,66 @@
+"st -e pulsemixer"
+ Mod4 + Shift + p
+"st -e vifm"
+ Mod4 + Shift + f
+"bash /home/luiz/.slstatus/water.sh"
+ Control + Menu
+"firefox"
+ Mod4 + Shift + w
+"firefox https://mail.google.com/mail/u/2"
+ Mod4 + Shift + g
+"firefox https://drive.google.com/u/2"
+ Mod4 + Shift + h
+"surf"
+ Mod4 + Shift + e
+"virtualbox"
+ Mod4 + Shift + v
+"qbittorrent"
+ Mod4 + Shift + t
+"st -e cmus"
+ Mod4 + Shift + m
+"st -e htop & st -e nvtop"
+ Mod4 + Shift + s
+"st -e vim /home/luiz/Documents/Others/todo"
+ Menu
+"st -e sc /home/luiz/Documents/Others/daily.sc"
+ Shift + Menu
+"slock"
+ Mod4 + Shift + l
+ "scrot -s -q 100 foo.png ; xclip -selection c -t image/png < foo.png && rm foo.png"
+ Shift + Print + Release
+ "scrot -q 100 foo.png ; xclip -selection c -t image/png < foo.png && rm foo.png"
+ Print + Release
+"st -e /home/luiz/Documents/IT/Scripts/rss.sh"
+ Mod4 + Shift + r
+"/home/luiz/Documents/IT/Scripts/shutdown.sh"
+ Mod4 + Shift + x
+"nvidia-settings --assign='DigitalVibrance=1023'"
+ Mod4 + Shift + j
+"nvidia-settings --assign='DigitalVibrance=0'"
+ Mod4 + Shift + Control + j
+"nvidia-settings --assign='DigitalVibrance=-1024'"
+ Mod4 + Shift + Mod1 + Control + j
+"pavucontrol"
+ Mod4 + Shift + F1
+"pulsemixer --change-volume -5"
+ Mod4 + Shift + F2
+"pulsemixer --change-volume +5"
+ Mod4 + Shift + F3
+"pulsemixer --toggle-mute"
+ Mod4 + Shift + F4
+"cmus-remote -s"
+ Mod4 + Shift + F5
+"cmus-remote -r"
+ Mod4 + Shift + F6
+"cmus-remote -u"
+ Mod4 + Shift + F7
+"cmus-remote -n"
+ Mod4 + Shift + F8
+"st -e python /home/luiz/Documents/IT/Scripts/tempmail.py"
+ Mod4 + Shift + F9
+ "firefox searx.space"
+ Mod4 + Shift + F10
+"slock"
+ Mod4 + Shift + F11
+ "st -e python"
+ Mod4 + Shift + F12
